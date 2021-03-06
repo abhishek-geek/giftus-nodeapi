@@ -13,7 +13,7 @@ app.use(cors());
 
 mongoose
   .connect(config.get("db"))
-  .then(() => console.log("Connected to Database"))
+  .then(() => console.log(`Connected to Database : ${config.get("db")}`))
   .catch((err) => console.log(err));
 
 app.use("/api/gifts/", gifts);
