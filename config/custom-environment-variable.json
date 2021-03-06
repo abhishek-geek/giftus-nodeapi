@@ -1,4 +1,4 @@
 {
-    "jwtPrivateKey" : "giftus_jwtPrivateKey",
-    "db": "mongodb+srv://giftus:12345@db.vnj8r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "jwtPrivateKey" : "jwtPrivateKey",
+    "db": "db"
 }
