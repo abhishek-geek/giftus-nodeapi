@@ -1,4 +1,5 @@
 {
+    "NODE_ENV": "production",
     "jwtPrivateKey" : "jwtPrivateKey",
-    "db": "db"
+    "db": "mongodb+srv://giftus:12345@db.vnj8r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
