@@ -1,6 +1,7 @@
 {
-  "jwtPrivateKey" : "giftus",
-  "db": "mongodb+srv://giftus:12345@db.vnj8r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtPrivateKey" : "12345",
+  "db": "mongodb://localhost/giftus",
+  "port": 3900,
   "requiresAuth": false
 }
 
