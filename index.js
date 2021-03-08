@@ -11,9 +11,10 @@ const port = process.env.PORT || config.get("port");
 app.listen(port, () => console.log(`Listening on port ${port}...`));
 app.use(cors());
 
+const db = process.env.db || config.get("db");
 mongoose
-  .connect(config.get("db"))
-  .then(() => console.log(`Connected to Database : ${config.get("db")}`))
+  .connect(db)
+  .then(() => console.log(`Connected to Database : ${db}`))
   .catch((err) => console.log(err));
 
 app.use("/api/gifts/", gifts);
